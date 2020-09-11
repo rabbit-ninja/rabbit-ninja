@@ -5,15 +5,13 @@
 
 - 🔭 I’m currently working on [Grapher](https://github.com/rabbit-ninja/grapher)
 
-- 🌱 I’m currently learning **vivid stuff from** [Coursera](https://www.coursera.org/user/383a59569bda631999ddbb11fff93f5a)
+- 🌱 I’m currently learning **vivid stuff from** Coursera:[Coursera Profile](https://www.coursera.org/user/383a59569bda631999ddbb11fff93f5a)
 
 - 👯 I’m looking to collaborate on [Grapher](https://github.com/rabbit-ninja/grapher)
 
 - 🤝 I’m looking for help with [Grapher](https://github.com/rabbit-ninja/grapher)
 
 - 👨‍💻 All of my projects are available at [https://github.com/rabbit-ninja](https://github.com/rabbit-ninja)
-
-- 📝 I'll be starting to write articles on [<undisclosed>](<undisclosed>)
 
 - 💬 Ask me about [**python, c++, ML, Web development (full stack), UX, UI**](#)
 
