@@ -15,7 +15,7 @@
 
 - 💬 Ask me about [**python, c++, ML, Web development (full stack), UX, UI**](#)
 
-- 📫 How to reach me **shubhammishralpu@gmail.com**
+- 📫 How to reach me **shubhammishra@duck.com**
 
 - 🌐 Visit my site at [www.rabbitninja.net](https://www.rabbitninja.net)
 
