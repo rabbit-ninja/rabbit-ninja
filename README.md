@@ -42,11 +42,24 @@ Y     _,  |
   <img src="https://user-images.githubusercontent.com/74038190/216649436-05c6a71a-0566-45aa-bc3f-f258ab12e491.gif" width="150">
 </div>
 
-- 🔭 **Main Mission**: Developing [Grapher](https://github.com/rabbit-ninja/grapher)
-- 🌱 **Skill Training**: Mastering new technologies via [Coursera](https://www.coursera.org/user/383a59569bda631999ddbb11fff93f5a)
-- 👯 **Seeking Allies**: Open to collaboration on [Grapher](https://github.com/rabbit-ninja/grapher)
-- 💬 **Knowledge Sharing**: Ask me about python, c++, ML, Web development (full stack), UX, UI
-- ⚡ **Ninja's Creed**: "Making the impossible possible through code and creativity"
+### 🌌 **Pursuing the Ultimate Mission**
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=600&lines=To+be+Omnipresent+in+Singularity;Shaping+Timeless+Digital+Experiences;Exploring+the+Uncharted+Paths+of+Innovation;Innovating+With+Purpose+and+Passion)](https://git.io/typing-svg)
+
+### 📘 **Ongoing Skill Development**
+Mastering emerging technologies through:  
+[![Coursera Badge](https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white)](https://www.coursera.org/user/383a59569bda631999ddbb11fff93f5a) [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/shubham-mishra-cs/)
+
+### 🤝 **Collaborating to Build Impact**
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=600&lines=Creating+Impactful+and+Meaningful+Projects;Collaborating+to+Push+Boundaries;Building+the+Future%2C+One+Commit+at+a+Time;Transforming+Ideas+into+Reality)](https://git.io/typing-svg)
+
+### 💬 **Knowledge Sharing Topics**
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=1000&lines=Ask+me+about:+Python%2C+C%2B%2B%2C+Java%2C+JavaScript%2C+PHP;Frontend+Development:+React%2C+Vue.js%2C+Next.js%2C+HTML5%2C+React+Native;Backend+Development:+Django%2C+Node.js%2C+Spring%2C+FastAPI%2C+Flask;Databases:+Elasticsearch%2C+MongoDB%2C+MySQL%2C+SQLite%2C+PostgreSQL;DevOps+%26+Tools:+Git%2C+Google+Cloud%2C+Linux%2C+AWS;Game+Development:+Unreal+Engine%2C+Blender%2C+Godot%2C+Aseprite;Machine+Learning:+Scikit-Learn%2C+TensorFlow%2C+OpenAI;General:+Anything+%26+Everything)](https://git.io/typing-svg)
+
+
+
+
+### ⚡ **Ninja's Philosophy**
+_"Turning the impossible into achievable with code and creativity."_
 
 ## 🎯 Ninja's Arsenal of Skills
 
