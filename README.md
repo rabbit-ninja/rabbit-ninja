@@ -151,7 +151,7 @@ _"Turning the impossible into achievable with code and creativity."_
   <img src="https://user-images.githubusercontent.com/74038190/235294015-47144047-25ab-417c-af1b-6746820a20ff.gif" width="100">
 
 [![Website](https://img.shields.io/badge/Website-rabbitninja.net-blue?style=for-the-badge&logo=google-chrome)](https://www.rabbitninja.net)
-[![Email](https://img.shields.io/badge/Email-shubhammishra@duck.com-red?style=for-the-badge&logo=gmail)](mailto:shubhammishra@duck.com)
+[![Email](https://img.shields.io/badge/Email-rabbit[AT]rabbitninja[DOT]net-red?style=for-the-badge&logo=gmail)](mailto:rabbit[AT]rabbitninja[DOT]net)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/shubham-mishra-cs)
 [![Dev.to](https://img.shields.io/badge/Dev.to-Follow-black?style=for-the-badge&logo=dev.to)](https://dev.to/rabbitninja)
 
