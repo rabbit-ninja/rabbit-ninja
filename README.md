@@ -47,7 +47,7 @@ Y     _,  |
 
 ### 📘 **Ongoing Skill Development**
 Mastering emerging technologies through:  
-[![Coursera Badge](https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white)](https://www.coursera.org/user/383a59569bda631999ddbb11fff93f5a) [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/shubham-mishra-cs/)
+[![Coursera Badge](https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white)](https://www.coursera.org/learner/shubham-mishra-cs) [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/shubham-mishra-cs/)
 
 ### 🤝 **Collaborating to Build Impact**
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=600&lines=Creating+Impactful+and+Meaningful+Projects;Collaborating+to+Push+Boundaries;Building+the+Future%2C+One+Commit+at+a+Time;Transforming+Ideas+into+Reality)](https://git.io/typing-svg)
