@@ -6,7 +6,6 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500" alt="Tech Animation">
 <hr>
-<img src="https://profile-counter.glitch.me/rabbit-ninja/count.svg" alt="Visitor Count" />
 </div>
 
 ## 🐰 Chronicles of the Rabbit Ninja
@@ -136,19 +135,13 @@ _"Turning the impossible into achievable with code and creativity."_
 
 <div align="center">
   
-  <img src="https://github-profile-trophy.vercel.app/?username=rabbit-ninja&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" />
-  
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=rabbit-ninja&theme=tokyonight" alt="GitHub Streak" />
   
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rabbit-ninja&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rabbit-ninja&layout=compact&langs_count=7&theme=tokyonight"/>
 </div>
 
 ## 🗺️ Find the Ninja
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/235294015-47144047-25ab-417c-af1b-6746820a20ff.gif" width="100">
 
 [![Website](https://img.shields.io/badge/Website-rabbitninja.net-blue?style=for-the-badge&logo=google-chrome)](https://www.rabbitninja.net)
 [![Email](https://img.shields.io/badge/Email-rabbit[AT]rabbitninja[DOT]net-red?style=for-the-badge&logo=gmail)](mailto:rabbit[AT]rabbitninja[DOT]net)
