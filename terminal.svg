@@ -1,0 +1,589 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="100%" height="100%">
+  <defs>
+    <!-- Digital Neon Glow Filter -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Cyber Bunny Gradients -->
+    <linearGradient id="cyber-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1D20"/>
+      <stop offset="100%" stop-color="#0A0B0D"/>
+    </linearGradient>
+
+    <linearGradient id="matrix-green" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#39FF14"/>
+      <stop offset="100%" stop-color="#008F11"/>
+    </linearGradient>
+
+    <linearGradient id="cyber-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF41"/>
+      <stop offset="100%" stop-color="#003B00"/>
+    </linearGradient>
+
+    <!-- Clip path to keep Digital Rain inside the left side of the terminal -->
+    <clipPath id="left-column-clip">
+      <rect x="15" y="45" width="310" height="380" rx="4" />
+    </clipPath>
+
+    <!-- ==================== SEQUENTIAL TYPING CLIP PATHS ==================== -->
+    <!-- Scene 1 Clips -->
+    <clipPath id="s1-l2-clip">
+      <rect x="-10" y="38" width="0" height="24" class="s1-l2-clip-rect" />
+    </clipPath>
+    <clipPath id="s1-l3-clip">
+      <rect x="-10" y="63" width="0" height="24" class="s1-l3-clip-rect" />
+    </clipPath>
+
+    <!-- Scene 2 Clips -->
+    <clipPath id="s2-l2-clip">
+      <rect x="-10" y="38" width="0" height="24" class="s2-l2-clip-rect" />
+    </clipPath>
+    <clipPath id="s2-l3-clip">
+      <rect x="-10" y="63" width="0" height="24" class="s2-l3-clip-rect" />
+    </clipPath>
+
+    <!-- Scene 3 Clips -->
+    <clipPath id="s3-l1-clip">
+      <rect x="-10" y="12" width="0" height="24" class="s3-l1-clip-rect" />
+    </clipPath>
+    <clipPath id="s3-l2-clip">
+      <rect x="-10" y="42" width="0" height="24" class="s3-l2-clip-rect" />
+    </clipPath>
+    <clipPath id="s3-l3-clip">
+      <rect x="-10" y="72" width="0" height="24" class="s3-l3-clip-rect" />
+    </clipPath>
+
+    <!-- Scene 4 Clips (10 distinct text rows staggered and aligned) -->
+    <!-- s4-l1-clip is relative to Scene 4's root transform (y=25 offset inside right half) -->
+    <clipPath id="s4-l1-clip">
+      <rect x="-10" y="7" width="0" height="24" class="s4-l1-clip-rect" />
+    </clipPath>
+    <!-- s4-l2 through s4-l8 are applied to elements inside translated <g> containers where y=0 is the text baseline -->
+    <clipPath id="s4-l2-clip">
+      <rect x="-10" y="-15" width="0" height="24" class="s4-l2-clip-rect" />
+    </clipPath>
+    <clipPath id="s4-l3-clip">
+      <rect x="-10" y="-15" width="0" height="24" class="s4-l3-clip-rect" />
+    </clipPath>
+    <clipPath id="s4-l4-clip">
+      <rect x="-10" y="-15" width="0" height="24" class="s4-l4-clip-rect" />
+    </clipPath>
+    <clipPath id="s4-l5-clip">
+      <rect x="-10" y="-15" width="0" height="24" class="s4-l5-clip-rect" />
+    </clipPath>
+    <clipPath id="s4-l6-clip">
+      <rect x="-10" y="-15" width="0" height="24" class="s4-l6-clip-rect" />
+    </clipPath>
+    <clipPath id="s4-l7-clip">
+      <rect x="-10" y="-15" width="0" height="24" class="s4-l7-clip-rect" />
+    </clipPath>
+    <clipPath id="s4-l8-clip">
+      <rect x="-10" y="-15" width="0" height="24" class="s4-l8-clip-rect" />
+    </clipPath>
+    <!-- s4-l9 and s4-l10 are relative to Scene 4's root coordinate plane -->
+    <clipPath id="s4-l9-clip">
+      <rect x="-10" y="187" width="0" height="24" class="s4-l9-clip-rect" />
+    </clipPath>
+    <clipPath id="s4-l10-clip">
+      <rect x="-10" y="207" width="0" height="24" class="s4-l10-clip-rect" />
+    </clipPath>
+  </defs>
+
+  <style>
+    /* CSS Animations */
+    @keyframes gentle-breath {
+      0%, 100% {
+        transform: scale(1) translateY(0);
+      }
+      50% {
+        transform: scale(1.02, 0.99) translateY(-2px);
+      }
+    }
+
+    @keyframes ear-wag-left {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(-8deg); }
+    }
+
+    @keyframes ear-wag-right {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(10deg); }
+    }
+
+    @keyframes cyber-blink {
+      0%, 90%, 100% { transform: scaleY(1); }
+      95% { transform: scaleY(0.05); }
+    }
+
+    @keyframes digital-rain {
+      0% { stroke-dashoffset: 400; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    @keyframes ribbon-sway {
+      0%, 100% { transform: rotate(0deg) skewX(0deg); }
+      50% { transform: rotate(-15deg) skewX(-5deg); }
+    }
+
+    @keyframes terminal-blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+
+    /* Target Classes and Origin Anchors */
+    .bunny-group {
+      transform-origin: 200px 350px;
+      animation: gentle-breath 3.5s ease-in-out infinite;
+    }
+
+    /* Soft Floating Animation */
+    @keyframes bunny-float {
+      0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+      }
+      50% {
+        transform: translateY(-10px) rotate(1.5deg);
+      }
+    }
+
+    .bunny-float-wrap {
+      transform-origin: 200px 220px;
+      animation: bunny-float 5s ease-in-out infinite;
+    }
+
+    .ear-l {
+      transform-origin: 165px 170px;
+      animation: ear-wag-left 3s ease-in-out infinite;
+    }
+
+    .ear-r {
+      transform-origin: 235px 170px;
+      animation: ear-wag-right 3.3s ease-in-out infinite;
+    }
+
+    .bunny-eye {
+      transform-origin: center;
+      animation: cyber-blink 4s ease-in-out infinite;
+    }
+
+    .left-eye { transform-origin: 165px 210px; }
+    .right-eye { transform-origin: 235px 210px; }
+
+    .ribbon {
+      transform-origin: 255px 212px;
+      animation: ribbon-sway 2.5s ease-in-out infinite;
+    }
+
+    /* Matrix Rain Paths */
+    .rain-stream {
+      stroke: #00FF41;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      opacity: 0.18;
+      stroke-dasharray: 40 180;
+      animation: digital-rain 6s linear infinite;
+    }
+
+    .rain-fast {
+      stroke-width: 2;
+      opacity: 0.35;
+      animation-duration: 4s;
+    }
+
+    .rain-slow {
+      stroke-width: 1;
+      opacity: 0.08;
+      animation-duration: 9s;
+    }
+
+    /* ==================== HIGH-FIDELITY TERMINAL TYPING CONTROLLER ====================
+      Total timeline loop cycle: 24 seconds.
+    */
+
+    /* Dynamic Scene-wide Visibility Overlays */
+    @keyframes scene-1-visibility {
+      0%, 22% { opacity: 1; pointer-events: auto; }
+      22.1%, 100% { opacity: 0; pointer-events: none; }
+    }
+    @keyframes scene-2-visibility {
+      0%, 22.9% { opacity: 0; pointer-events: none; }
+      23%, 45% { opacity: 1; pointer-events: auto; }
+      45.1%, 100% { opacity: 0; pointer-events: none; }
+    }
+    @keyframes scene-3-visibility {
+      0%, 45.9% { opacity: 0; pointer-events: none; }
+      46%, 68% { opacity: 1; pointer-events: auto; }
+      68.1%, 100% { opacity: 0; pointer-events: none; }
+    }
+    @keyframes scene-4-visibility {
+      0%, 68.9% { opacity: 0; pointer-events: none; }
+      69%, 98% { opacity: 1; pointer-events: auto; }
+      98.1%, 100% { opacity: 0; pointer-events: none; }
+    }
+
+    .scene-1 { animation: scene-1-visibility 24s infinite; }
+    .scene-2 { animation: scene-2-visibility 24s infinite; }
+    .scene-3 { animation: scene-3-visibility 24s infinite; }
+    .scene-4 { animation: scene-4-visibility 24s infinite; }
+
+    /* Scene 1 Typing Masks (0s - 5.5s) */
+    @keyframes s1-l2-type {
+      0%, 4.17% { width: 0; }
+      9.17%, 22.1% { width: 480px; }
+      22.2%, 100% { width: 0; }
+    }
+    @keyframes s1-l3-type {
+      0%, 11.67% { width: 0; }
+      17.92%, 22.1% { width: 480px; }
+      22.2%, 100% { width: 0; }
+    }
+    .s1-l2-clip-rect { animation: s1-l2-type 24s infinite steps(20) forwards; }
+    .s1-l3-clip-rect { animation: s1-l3-type 24s infinite steps(24) forwards; }
+
+    /* Scene 2 Typing Masks (5.5s - 11s) */
+    @keyframes s2-l2-type {
+      0%, 25.83% { width: 0; }
+      32.08%, 45% { width: 480px; }
+      45.1%, 100% { width: 0; }
+    }
+    @keyframes s2-l3-type {
+      0%, 35.42% { width: 0; }
+      39.58%, 45% { width: 480px; }
+      45.1%, 100% { width: 0; }
+    }
+    .s2-l2-clip-rect { animation: s2-l2-type 24s infinite steps(27) forwards; }
+    .s2-l3-clip-rect { animation: s2-l3-type 24s infinite steps(16) forwards; }
+
+    /* Scene 3 Typing Masks (11s - 16.5s) */
+    @keyframes s3-l1-type {
+      0%, 46.67% { width: 0; }
+      54.17%, 68% { width: 480px; }
+      68.1%, 100% { width: 0; }
+    }
+    @keyframes s3-l2-type {
+      0%, 55% { width: 0; }
+      56.67%, 68% { width: 480px; }
+      68.1%, 100% { width: 0; }
+    }
+    @keyframes s3-l3-type {
+      0%, 54.17% { width: 0; }
+      58.33% { width: 95px; }
+      62.5%, 68% { width: 480px; }
+      68.1%, 100% { width: 0; }
+    }
+    .s3-l1-clip-rect { animation: s3-l1-type 24s infinite steps(45) forwards; }
+    .s3-l2-clip-rect { animation: s3-l2-type 24s infinite steps(30) forwards; }
+    .s3-l3-clip-rect { animation: s3-l3-type 24s infinite forwards; }
+
+    /* Scene 4 Typing Masks (16.5s - 23.5s) - Smooth sequentially staggered typing classes */
+    @keyframes s4-l1-type {
+      0%, 69% { width: 0; }
+      71.5%, 98% { width: 480px; }
+      98.1%, 100% { width: 0; }
+    }
+    @keyframes s4-l2-type {
+      0%, 71.5% { width: 0; }
+      74%, 98% { width: 480px; }
+      98.1%, 100% { width: 0; }
+    }
+    @keyframes s4-l3-type {
+      0%, 74% { width: 0; }
+      76.5%, 98% { width: 480px; }
+      98.1%, 100% { width: 0; }
+    }
+    @keyframes s4-l4-type {
+      0%, 76.5% { width: 0; }
+      79%, 98% { width: 480px; }
+      98.1%, 100% { width: 0; }
+    }
+    @keyframes s4-l5-type {
+      0%, 79% { width: 0; }
+      81.5%, 98% { width: 480px; }
+      98.1%, 100% { width: 0; }
+    }
+    @keyframes s4-l6-type {
+      0%, 81.5% { width: 0; }
+      84%, 98% { width: 480px; }
+      98.1%, 100% { width: 0; }
+    }
+    @keyframes s4-l7-type {
+      0%, 84% { width: 0; }
+      86.5%, 98% { width: 480px; }
+      98.1%, 100% { width: 0; }
+    }
+    @keyframes s4-l8-type {
+      0%, 86.5% { width: 0; }
+      89%, 98% { width: 480px; }
+      98.1%, 100% { width: 0; }
+    }
+    @keyframes s4-l9-type {
+      0%, 89% { width: 0; }
+      91.5%, 98% { width: 480px; }
+      98.1%, 100% { width: 0; }
+    }
+    @keyframes s4-l10-type {
+      0%, 91.5% { width: 0; }
+      94%, 98% { width: 480px; }
+      98.1%, 100% { width: 0; }
+    }
+
+    .s4-l1-clip-rect { animation: s4-l1-type 24s infinite steps(45) forwards; }
+    .s4-l2-clip-rect { animation: s4-l2-type 24s infinite steps(30) forwards; }
+    .s4-l3-clip-rect { animation: s4-l3-type 24s infinite steps(35) forwards; }
+    .s4-l4-clip-rect { animation: s4-l4-type 24s infinite steps(30) forwards; }
+    .s4-l5-clip-rect { animation: s4-l5-type 24s infinite steps(30) forwards; }
+    .s4-l6-clip-rect { animation: s4-l6-type 24s infinite steps(35) forwards; }
+    .s4-l7-clip-rect { animation: s4-l7-type 24s infinite steps(35) forwards; }
+    .s4-l8-clip-rect { animation: s4-l8-type 24s infinite steps(25) forwards; }
+    .s4-l9-clip-rect { animation: s4-l9-type 24s infinite steps(20) forwards; }
+    .s4-l10-clip-rect { animation: s4-l10-type 24s infinite steps(20) forwards; }
+
+    /* Active Staged Bypassing Blinking Cursors */
+    @keyframes cursor-1-seq {
+      0%, 4.1% { opacity: 1; transform: translate(18px, 42px); } /* On prompt */
+      4.17%, 9.1% { opacity: 1; transform: translate(168px, 42px); } /* End of Wake up, Human... */
+      9.17%, 100% { opacity: 0; }
+    }
+    @keyframes cursor-2-seq {
+      0%, 11.6% { opacity: 0; }
+      11.67%, 22% { opacity: 1; transform: translate(210px, 67px); } /* End of Matrix has you */
+      22.08%, 100% { opacity: 0; }
+    }
+    @keyframes cursor-3-seq {
+      0%, 25.8% { opacity: 0; }
+      25.83%, 35.3% { opacity: 1; transform: translate(230px, 42px); } /* Follow cyber rabbit */
+      35.41%, 100% { opacity: 0; }
+    }
+    @keyframes cursor-4-seq {
+      0%, 35.4% { opacity: 0; }
+      35.42%, 45% { opacity: 1; transform: translate(142px, 67px); } /* Knock, knock */
+      45.08%, 100% { opacity: 0; }
+    }
+    @keyframes cursor-5-seq {
+      0%, 46.6% { opacity: 0; }
+      46.67%, 68% { opacity: 1; transform: translate(460px, 17px); } /* Decrypt Protocols Command */
+      68.08%, 100% { opacity: 0; }
+    }
+    @keyframes cursor-6-seq {
+      0%, 93.9% { opacity: 0; }
+      94%, 98% { opacity: 1; transform: translate(215px, 212px); } /* Final Command prompt focus y=225px */
+      98.08%, 100% { opacity: 0; }
+    }
+
+    .cursor-c1 { animation: cursor-1-seq 24s infinite step-start, terminal-blink 1s step-start infinite; }
+    .cursor-c2 { animation: cursor-2-seq 24s infinite step-start, terminal-blink 1s step-start infinite; }
+    .cursor-c3 { animation: cursor-3-seq 24s infinite step-start, terminal-blink 1s step-start infinite; }
+    .cursor-c4 { animation: cursor-4-seq 24s infinite step-start, terminal-blink 1s step-start infinite; }
+    .cursor-c5 { animation: cursor-5-seq 24s infinite step-start, terminal-blink 1s step-start infinite; }
+    .cursor-c6 { animation: cursor-6-seq 24s infinite step-start, terminal-blink 1s step-start infinite; }
+
+    /* Terminal UI Styling */
+    .term-text {
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 14px;
+      fill: #E1E4E8;
+    }
+
+    .term-green { fill: #A6E22E; }
+    .term-blue { fill: #66D9EF; }
+    .term-purple { fill: #AE81FF; }
+    .term-dim { fill: #75715E; }
+    .term-orange { fill: #FD971F; }
+    
+    .cursor-block {
+      fill: #00FF41;
+      filter: url(#neon-glow);
+    }
+  </style>
+
+  <!-- Translucent Terminal Window Backdrop -->
+  <rect x="5" y="5" width="910" height="430" rx="12" fill="#14161D" fill-opacity="0.82" stroke="#252A34" stroke-width="1.5" />
+  
+  <!-- Translucent macOS Top Window Titlebar -->
+  <path d="M 5,41 L 5,17 A 12,12 0 0 1 17,5 L 903,5 A 12,12 0 0 1 915,17 L 915,41 Z" fill="#1B1E25" fill-opacity="0.88" />
+  
+  <!-- Window Controls (Traffic Lights) -->
+  <circle cx="25" cy="23" r="6" fill="#FF5F56" />
+  <circle cx="45" cy="23" r="6" fill="#FFBD2E" />
+  <circle cx="65" cy="23" r="6" fill="#27C93F" />
+  
+  <!-- Centered Session Title (rabbit ninja theme) -->
+  <text x="460" y="27" font-family="monospace" font-size="13" fill="#6C7280" text-anchor="middle">shubham@rabbit-ninja:~</text>
+
+  <!-- ==================== LEFT HALF: MATRIX CODE RAIN & VERTICAL FLOATING BUNNY ==================== -->
+  <g clip-path="url(#left-column-clip)">
+    <!-- Matrix Code Rain on left panel background -->
+    <path class="rain-stream rain-slow" d="M 30,30 L 30,440" stroke-dashoffset="100" />
+    <path class="rain-stream rain-fast" d="M 70,30 L 70,440" stroke-dashoffset="300" />
+    <path class="rain-stream" d="M 110,30 L 110,440" stroke-dashoffset="50" />
+    <path class="rain-stream rain-slow" d="M 150,30 L 150,440" stroke-dashoffset="220" />
+    <path class="rain-stream" d="M 190,30 L 190,440" stroke-dashoffset="150" />
+    <path class="rain-stream rain-fast" d="M 230,30 L 230,440" stroke-dashoffset="380" />
+    <path class="rain-stream rain-slow" d="M 270,30 L 270,440" stroke-dashoffset="80" />
+    <path class="rain-stream" d="M 310,30 L 310,440" stroke-dashoffset="270" />
+
+    <!-- Embedded Cyber Bunny Group with floating wrapper (transparent background) -->
+    <g class="bunny-float-wrap" transform="translate(-35, 45) scale(0.95)">
+      <g class="bunny-group">
+        <!-- Cybernetic Sheathed Katanas on Back -->
+        <g>
+          <!-- Left Katana Handle -->
+          <path d="M 110,230 L 70,160" stroke="#0D0E10" stroke-width="12" stroke-linecap="round" />
+          <path d="M 110,230 L 70,160" stroke="#00FF41" stroke-width="2" stroke-dasharray="4 4" filter="url(#neon-glow)" />
+          <rect x="94" y="196" width="22" height="6" rx="2" transform="rotate(30 105 199)" fill="#00FF41" filter="url(#neon-glow)" />
+
+          <!-- Right Katana Handle -->
+          <path d="M 290,230 L 330,160" stroke="#0D0E10" stroke-width="12" stroke-linecap="round" />
+          <path d="M 290,230 L 330,160" stroke="#00FF41" stroke-width="2" stroke-dasharray="4 4" filter="url(#neon-glow)" />
+          <rect x="284" y="196" width="22" height="6" rx="2" transform="rotate(-30 295 199)" fill="#00FF41" filter="url(#neon-glow)" />
+        </g>
+
+        <!-- Ninja Tail -->
+        <circle cx="110" cy="310" r="22" fill="url(#cyber-dark)" stroke="#00FF41" stroke-width="1.5" />
+        <circle cx="110" cy="310" r="10" fill="#050806" stroke="#00FF41" stroke-width="1" stroke-dasharray="2 2" />
+
+        <!-- Left Shinobi Ear -->
+        <g class="ear-l">
+          <path d="M 140,175 C 130,90 145,20 165,20 C 185,20 185,90 175,175 Z" fill="url(#cyber-dark)" stroke="#00FF41" stroke-width="2" />
+          <path d="M 148,165 C 140,95 152,35 165,35 C 178,35 174,95 168,165 Z" fill="url(#matrix-green)" />
+        </g>
+
+        <!-- Right Shinobi Ear -->
+        <g class="ear-r">
+          <path d="M 225,175 C 215,90 215,20 235,20 C 255,20 270,90 260,175 Z" fill="url(#cyber-dark)" stroke="#00FF41" stroke-width="2" />
+          <path d="M 232,165 C 226,95 222,35 235,35 C 248,35 260,95 252,165 Z" fill="url(#matrix-green)" />
+        </g>
+
+        <!-- Body/Torso (Tactical Shinobi Wrap) -->
+        <g>
+          <path d="M 125,330 C 120,270 140,240 200,240 C 260,240 280,270 275,330 C 270,360 250,365 200,365 C 150,365 130,360 125,330 Z" fill="url(#cyber-dark)" />
+          <path d="M 148,255 L 200,320 L 252,255" fill="none" stroke="#22262B" stroke-width="5" />
+          <path d="M 148,255 L 200,320 L 252,255" fill="none" stroke="#00FF41" stroke-width="1.5" filter="url(#neon-glow)" />
+          <path d="M 130,325 C 160,335 240,335 270,325" fill="none" stroke="#00FF41" stroke-width="8" stroke-linecap="round" filter="url(#neon-glow)" />
+        </g>
+
+        <!-- Ninja Head Mask/Cowl -->
+        <g>
+          <circle cx="200" cy="220" r="65" fill="url(#cyber-dark)" stroke="#00FF41" stroke-width="2" />
+          <path d="M 145,215 C 142,200 150,195 200,195 C 250,195 258,200 255,215 C 252,225 240,225 200,225 C 160,225 148,225 145,215 Z" fill="#0D0E10" stroke="#22262B" stroke-width="1.5" />
+        </g>
+
+        <!-- Cyber-Blush HUD UI markers -->
+        <path d="M 146,242 L 156,242 M 146,246 L 152,246" stroke="#00FF41" stroke-width="2" stroke-linecap="round" filter="url(#neon-glow)" />
+        <path d="M 254,242 L 244,242 M 254,246 L 248,246" stroke="#00FF41" stroke-width="2" stroke-linecap="round" filter="url(#neon-glow)" />
+
+        <!-- Glowing Cybernetic Left Eye -->
+        <g class="bunny-eye left-eye">
+          <polygon points="156,212 174,208 170,216" fill="#00FF41" filter="url(#neon-glow)" />
+        </g>
+
+        <!-- Glowing Cybernetic Right Eye -->
+        <g class="bunny-eye right-eye">
+          <polygon points="244,212 226,208 230,216" fill="#00FF41" filter="url(#neon-glow)" />
+        </g>
+
+        <!-- Headband Wrap & Ribbon Tails -->
+        <g>
+          <path d="M 137,185 C 165,178 235,178 263,185" fill="none" stroke="#003B00" stroke-width="12" />
+          <path d="M 137,185 C 165,178 235,178 263,185" fill="none" stroke="#00FF41" stroke-width="2" filter="url(#neon-glow)" />
+          <rect x="180" y="174" width="40" height="14" rx="3" fill="#22262B" stroke="#00FF41" stroke-width="1.5" />
+          <circle cx="184" cy="181" r="1.5" fill="#00FF41" />
+          <circle cx="216" cy="181" r="1.5" fill="#00FF41" />
+          <path d="M 197,178 L 203,178 L 200,183 Z" fill="#00FF41" filter="url(#neon-glow)" />
+          <g class="ribbon">
+            <path d="M 255,200 C 270,195 295,215 315,205" fill="none" stroke="#003B00" stroke-width="6" stroke-linecap="round" />
+            <path d="M 255,200 C 270,195 295,215 315,205" fill="none" stroke="#00FF41" stroke-width="1.5" filter="url(#neon-glow)" />
+            <path d="M 255,195 C 280,185 300,200 310,190" fill="none" stroke="#003B00" stroke-width="4" stroke-linecap="round" />
+          </g>
+        </g>
+
+        <!-- Tactical Wraps on Front Paws -->
+        <g>
+          <rect x="165" y="315" width="16" height="30" rx="8" fill="url(#cyber-dark)" stroke="#00FF41" stroke-width="1.5" />
+          <path d="M 165,322 L 181,322 M 165,328 L 181,328" stroke="#00FF41" stroke-width="1.5" />
+          <rect x="219" y="315" width="16" height="30" rx="8" fill="url(#cyber-dark)" stroke="#00FF41" stroke-width="1.5" />
+          <path d="M 219,322 L 235,322 M 219,328 L 235,328" stroke="#00FF41" stroke-width="1.5" />
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Vertical Divider Line separating visual column and terminal details -->
+  <line x1="335" y1="45" x2="335" y2="425" stroke="#252A34" stroke-width="1.5" />
+
+  <!-- ==================== RIGHT HALF: SEQUENTIAL STORYBOARD TERMINAL ==================== -->
+  <g transform="translate(360, 50)">
+    
+    <!-- SYSTEM STAGED BLINKING CURSORS -->
+    <rect x="0" y="0" width="8" height="15" class="cursor-block cursor-c1" />
+    <rect x="0" y="0" width="8" height="15" class="cursor-block cursor-c2" />
+    <rect x="0" y="0" width="8" height="15" class="cursor-block cursor-c3" />
+    <rect x="0" y="0" width="8" height="15" class="cursor-block cursor-c4" />
+    <rect x="0" y="0" width="8" height="15" class="cursor-block cursor-c5" />
+    <rect x="0" y="0" width="8" height="15" class="cursor-block cursor-c6" />
+
+    <!-- SCENE 1 (0.0s - 5.5s): Wake up, Human... -->
+    <g class="scene-1">
+      <text x="0" y="30" class="term-text term-dim">/* type !HELP or /core, /frontend, /backend */</text>
+      <text x="0" y="55" class="term-text term-green" clip-path="url(#s1-l2-clip)">>_ Wake up, Human...</text>
+      <text x="0" y="80" class="term-text term-green" clip-path="url(#s1-l3-clip)">>_ The Matrix has you...</text>
+    </g>
+
+    <!-- SCENE 2 (5.5s - 11.0s): Follow the Cyber Rabbit. -->
+    <g class="scene-2">
+      <text x="0" y="30" class="term-text term-dim">/* connection detected on sub-channel... */</text>
+      <text x="0" y="55" class="term-text term-green" clip-path="url(#s2-l2-clip)">>_ Follow rabbit ninja.</text>
+      <text x="0" y="80" class="term-text term-green" clip-path="url(#s2-l3-clip)">>_ Knock, knock.</text>
+    </g>
+
+    <!-- SCENE 3 (11.0s - 16.5s): Decrypting Cognitive Modules -->
+    <g class="scene-3">
+      <text x="0" y="30" class="term-text term-blue" clip-path="url(#s3-l1-clip)">shubham@rabbit-ninja:~$ exec /matrix/decrypt_protocols</text>
+      <text x="0" y="60" class="term-text term-orange" clip-path="url(#s3-l2-clip)">DECRYPTING COGNITIVE MODULES...</text>
+      <text x="0" y="90" class="term-text term-green" clip-path="url(#s3-l3-clip)">[██████████] 99% Completed</text>
+    </g>
+
+    <!-- SCENE 4 (16.5s - 23.5s): Active decrypted stacks and command prompt ready (Dynamic compact grid layout) -->
+    <g class="scene-4">
+      <text x="0" y="25" class="term-text term-blue" clip-path="url(#s4-l1-clip)">[ LOGGED IN: SKILL LEVEL OMNI ]</text>
+      
+      <g transform="translate(0, 50)">
+        <text x="0" y="0" class="term-text term-purple" clip-path="url(#s4-l2-clip)">{LANGS}</text>
+        <text x="140" y="0" class="term-text" clip-path="url(#s4-l2-clip)">=&gt; Python, Java, JS, PHP, Go</text>
+      </g>
+      <g transform="translate(0, 70)">
+        <text x="0" y="0" class="term-text term-purple" clip-path="url(#s4-l3-clip)">{FRONTEND}</text>
+        <text x="140" y="0" class="term-text" clip-path="url(#s4-l3-clip)">=&gt; React, Vue, Next.js, HTML5, RN, ChartJS</text>
+      </g>
+      <g transform="translate(0, 90)">
+        <text x="0" y="0" class="term-text term-purple" clip-path="url(#s4-l4-clip)">{BACKEND}</text>
+        <text x="140" y="0" class="term-text" clip-path="url(#s4-l4-clip)">=&gt; Django, Node.js, Spring, Express, Flask</text>
+      </g>
+      <g transform="translate(0, 110)">
+        <text x="0" y="0" class="term-text term-purple" clip-path="url(#s4-l5-clip)">{DATABASE}</text>
+        <text x="140" y="0" class="term-text" clip-path="url(#s4-l5-clip)">=&gt; Postgres, MongoDB, MySQL, SQLite, ES</text>
+      </g>
+      <g transform="translate(0, 130)">
+        <text x="0" y="0" class="term-text term-purple" clip-path="url(#s4-l6-clip)">{DEVOPS}</text>
+        <text x="140" y="0" class="term-text" clip-path="url(#s4-l6-clip)">=&gt; Git, GCP, Linux, Postman, AWS, Azure, DO</text>
+      </g>
+      <g transform="translate(0, 150)">
+        <text x="0" y="0" class="term-text term-purple" clip-path="url(#s4-l7-clip)">{ML/AI}</text>
+        <text x="140" y="0" class="term-text" clip-path="url(#s4-l7-clip)">=&gt; Scikit, TensorFlow, OpenAI, vLLM, Anthropic</text>
+      </g>
+      <g transform="translate(0, 170)">
+        <text x="0" y="0" class="term-text term-purple" clip-path="url(#s4-l8-clip)">{GAME/3D}</text>
+        <text x="140" y="0" class="term-text" clip-path="url(#s4-l8-clip)">=&gt; Blender, Godot, Aseprite</text>
+      </g>
+      
+      <text x="0" y="205" class="term-text term-green" clip-path="url(#s4-l9-clip)">>_ System Status: OK</text>
+      <text x="0" y="225" class="term-text term-green" clip-path="url(#s4-l10-clip)">>_ Ready for Command Input</text>
+    </g>
+
+  </g>
+</svg>

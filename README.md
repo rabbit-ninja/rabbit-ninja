@@ -4,44 +4,19 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Shubham;A+Rabbit+Ninja+in+the+Digital+Realm;Building+the+Future%2C+One+Commit+at+a+Time;Seeking+the+Path+to+Digital+Omnipresence)](https://git.io/typing-svg)
 
-<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500" alt="Tech Animation">
-<hr>
-</div>
-
-## 🐰 Chronicles of the Rabbit Ninja
-
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 </div>
 
-```ascii
-     /|      __  
-    / |   ,-~ /   A tale of a ninja rabbit,
-   Y :|  //  /    Who codes through day and night,
-   | jj /( .^     Breaking barriers of possibility,
-   >-"~"-v"      On an infinite digital flight.
-  /       Y
- jo  o    |
-( ~T~     j
- >._-' _./
-/   "~"  |
-Y     _,  |
-/| ;-"~ _  l
-/ l/ ,-"~    \
-\//\/      .- \
- Y        /    Y
- l       I     !
- ]\      _\    /"\
-(" ~----( ~   Y.  )
-```
-
-## 🥷 Current Quest Objectives
-
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/216649436-05c6a71a-0566-45aa-bc3f-f258ab12e491.gif" width="150">
+  <img src="terminal.svg" alt="About me">
+</div>
+<hr>
 </div>
 
-### 🌌 **Pursuing the Ultimate Mission**
+## 🥷 Current Focus & Objectives
+
+### 🌌 **Mission & Vision**
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=600&lines=To+be+Omnipresent+in+Singularity;Shaping+Timeless+Digital+Experiences;Exploring+the+Uncharted+Paths+of+Innovation;Innovating+With+Purpose+and+Passion)](https://git.io/typing-svg)
 
 ### 📘 **Ongoing Skill Development**
@@ -51,28 +26,24 @@ Mastering emerging technologies through:
 ### 🤝 **Collaborating to Build Impact**
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=600&lines=Creating+Impactful+and+Meaningful+Projects;Collaborating+to+Push+Boundaries;Building+the+Future%2C+One+Commit+at+a+Time;Transforming+Ideas+into+Reality)](https://git.io/typing-svg)
 
-### 💬 **Knowledge Sharing Topics**
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=1000&lines=Ask+me+about:+Python%2C+C%2B%2B%2C+Java%2C+JavaScript%2C+PHP;Frontend+Development:+React%2C+Vue.js%2C+Next.js%2C+HTML5%2C+React+Native;Backend+Development:+Django%2C+Node.js%2C+Spring%2C+FastAPI%2C+Flask;Databases:+Elasticsearch%2C+MongoDB%2C+MySQL%2C+SQLite%2C+PostgreSQL;DevOps+%26+Tools:+Git%2C+Google+Cloud%2C+Linux%2C+AWS;Game+Development:+Unreal+Engine%2C+Blender%2C+Godot%2C+Aseprite;Machine+Learning:+Scikit-Learn%2C+TensorFlow%2C+OpenAI;General:+Anything+%26+Everything)](https://git.io/typing-svg)
+### 💬 **Let's Discuss**
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=1000&lines=Ask+me+about:+Python%2C+C%2B%2B%2C+Java%2C+JavaScript%2C+PHP;Frontend+Development:+React%2C+Vue.js%2C+Next.js%2C+HTML5%2C+React+Native;Backend+Development:+Django%2C+Node.js%2C+Spring%2C+FastAPI%2C+Flask;Databases:+Elasticsearch%2C+MongoDB%2C+MySQL%2C+SQLite%2C+PostgreSQL;DevOps+%26+Tools:+Git%2C+Google+Cloud%2C+Linux%2C+AWS;Game+Development:+Blender%2C+Godot%2C+Aseprite;Machine+Learning:+Scikit-Learn%2C+TensorFlow%2C+OpenAI;General:+Anything+%26+Everything)](https://git.io/typing-svg)
 
 
 
 
-### ⚡ **Ninja's Philosophy**
+### ⚡ **Professional Philosophy**
 _"Turning the impossible into achievable with code and creativity."_
 
-## 🎯 Ninja's Arsenal of Skills
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif" width="400">
-</div>
+## 🎯 Technical Expertise
 
 ### Languages
 <p align="center">
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
 </p>
 
 ### Frontend Development
@@ -96,7 +67,7 @@ _"Turning the impossible into achievable with code and creativity."_
 
 ### Database
 <p align="center">
-  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Elasticsearch-00BFB3?style=for-the-badge&logo=elasticsearch&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
@@ -116,7 +87,6 @@ _"Turning the impossible into achievable with code and creativity."_
 
 ### Game Development & 3D
 <p align="center">
-  <img src="https://img.shields.io/badge/Unreal%20Engine-313131?style=for-the-badge&logo=unreal-engine&logoColor=white" />
   <img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" />
   <img src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godot-engine&logoColor=white" />
   <img src="https://img.shields.io/badge/Aseprite-7D929E?style=for-the-badge&logo=aseprite&logoColor=white" />
@@ -131,7 +101,7 @@ _"Turning the impossible into achievable with code and creativity."_
   <img src="https://img.shields.io/badge/anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white" />
 </p>
 
-## 📊 Battle Statistics
+## 📊 GitHub Contribution Statistics
 
 <div align="center">
   
@@ -139,7 +109,7 @@ _"Turning the impossible into achievable with code and creativity."_
   
 </div>
 
-## 🗺️ Find the Ninja
+## 🗺️ Let's Connect
 
 <div align="center">
 
