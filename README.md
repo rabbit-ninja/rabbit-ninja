@@ -27,7 +27,7 @@ Mastering emerging technologies through:
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=600&lines=Creating+Impactful+and+Meaningful+Projects;Collaborating+to+Push+Boundaries;Building+the+Future%2C+One+Commit+at+a+Time;Transforming+Ideas+into+Reality)](https://git.io/typing-svg)
 
 ### 💬 **Let's Discuss**
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=1000&lines=Ask+me+about:+Python%2C+C%2B%2B%2C+Java%2C+JavaScript%2C+PHP;Frontend+Development:+React%2C+Vue.js%2C+Next.js%2C+HTML5%2C+React+Native;Backend+Development:+Django%2C+Node.js%2C+Spring%2C+FastAPI%2C+Flask;Databases:+Elasticsearch%2C+MongoDB%2C+MySQL%2C+SQLite%2C+PostgreSQL;DevOps+%26+Tools:+Git%2C+Google+Cloud%2C+Linux%2C+AWS;Game+Development:+Blender%2C+Godot%2C+Aseprite;Machine+Learning:+Scikit-Learn%2C+TensorFlow%2C+OpenAI;General:+Anything+%26+Everything)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=1000&lines=Ask+me+about:+Python%2C+C%2B%2B%2C+Java%2C+JavaScript%2C+PHP%2C+Go;Frontend+Development:+React%2C+Vue.js%2C+Next.js%2C+HTML5%2C+React+Native;Backend+Development:+Django%2C+Node.js%2C+Spring%2C+FastAPI%2C+Flask;Databases:+Elasticsearch%2C+MongoDB%2C+MySQL%2C+SQLite%2C+PostgreSQL;DevOps+%26+Tools:+Git%2C+Google+Cloud%2C+Linux%2C+AWS;Game+Development:+Blender%2C+Godot%2C+Aseprite;Machine+Learning:+Scikit-Learn%2C+TensorFlow%2C+OpenAI;General:+Anything+%26+Everything)](https://git.io/typing-svg)
 
 
 
