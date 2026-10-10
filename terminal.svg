@@ -554,7 +554,7 @@
       
       <g transform="translate(0, 50)">
         <text x="0" y="0" class="term-text term-purple" clip-path="url(#s4-l2-clip)">{LANGS}</text>
-        <text x="140" y="0" class="term-text" clip-path="url(#s4-l2-clip)">=&gt; Python, Java, JS, PHP, Go</text>
+        <text x="140" y="0" class="term-text" clip-path="url(#s4-l2-clip)">=&gt; Python, C++, Java, JS, PHP, Go</text>
       </g>
       <g transform="translate(0, 70)">
         <text x="0" y="0" class="term-text term-purple" clip-path="url(#s4-l3-clip)">{FRONTEND}</text>
